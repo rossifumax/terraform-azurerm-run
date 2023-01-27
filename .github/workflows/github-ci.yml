@@ -1,0 +1,5 @@
+name: CI
+on: [push]
+jobs:
+  ci:
+    uses: rossifumax/terraform-modules-ci/.github/workflows/ci-modules.yaml@ci-test
